@@ -1,0 +1,96 @@
+        body {
+            height: 100%;
+        }
+
+        nav {
+            font-size: 1em;
+            font-family: Yu Gothic UI;
+            z-index: 1;
+        }
+
+        h1 {
+            color: black;
+            opacity: 0.8;
+            font-family: Yu Gothic UI Light;
+        }
+
+        h2 {
+            color: black;
+            opacity: 0.6;
+            font-family: Yu Gothic UI Light;
+        }
+
+        h5 {
+            color: black;
+            opacity: 0.6;
+            font-family: Muli;
+        }
+
+        p {
+            color: black;
+            opacity: 0.8;
+            padding-top: 15px;
+            padding-left: 5px;
+        }
+
+        a {
+            color: black;
+            opacity: 0.8;
+        }
+
+        a:hover {
+            color: black;
+        }
+
+        .nav-item dropdown {
+            border-style: none;
+        }
+
+        #brandName {
+            padding-left: 80px;
+        }
+
+        #aboutMeText {
+            text-align: justify;
+        }
+
+        #gotoAbout {
+            padding-top: 20px;
+        }
+
+        footer {
+            font-family: Yu Gothic UI Light;
+            margin-top: 80px;
+        }
+
+        .footer-chevron {
+            color: red;
+            opacity: 0.8;
+        }
+
+        .footer-chevron:hover {
+            color: burlywood;
+            opacity: 0.8;
+        }
+
+        .navbar-light {
+            font-size: 1em;
+            border-style: none;
+        }
+
+        .dropdown-menu {
+            border: 0px;
+            font-size: 1.3em;
+        }   
+
+/*CV*/
+        }
+        .fdb-block {
+            font-family: Yu Gothic UI Light;
+            color: black;
+            opacity: 0.8;
+        }
+
+        a:hover {
+            color:red;
+        }

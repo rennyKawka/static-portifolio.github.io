@@ -1,0 +1,142 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(3, 61, 61, 0.664);
+}
+.footer{
+    /* position: absolute; */
+    text-align: center;
+    background-color: #000;
+    color: antiquewhite;
+    
+    /* width: 100%;
+    padding: ; */
+    /* top: 100vh; */
+}
+/* index */
+section, #sec_index{
+    background-image:linear-gradient(rgba(99, 95, 94, 0.178), rgba(146, 136, 132, 0.219)), url(../img/bg/IMG_20200727_114328.jpg);
+    background-size: cover;
+    /* height: 100vh; */
+    background-attachment: fixed;
+}
+#sec_index #getstarted{
+    position: absolute;
+    top: 50%;
+}
+/* / of index */
+/* ====== */
+
+
+/* navbar */
+.nav-bar li a {
+    color: #ccc;
+    text-decoration: none;
+
+}
+.nav-bar a:active{
+    color: white;
+}
+
+.nav-wrap:hover {
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+    /* color: #cccccc; */
+}
+.text-white a{
+    color: #cccccc;
+}
+.bg-red{
+    background-color: rgb(170, 4, 4);
+}
+.bg-red a{
+    color: #ccc;
+}
+.bg-red:hover {
+    color: white;
+    /* background-color: rgb(4, 67, 131); */
+    background-color: rgb(75, 2, 2);
+}
+.bg-red a:hover {
+    color: white;
+    font-size: 20px;
+}
+/* === */
+
+.bg-blue{
+    /* */
+    background-color: rgb(4, 67, 131);
+}
+.bg-blue a{
+    color: #cccccc;
+}
+
+
+.bg-blue:hover {
+    color: white;
+    background-color: rgb(1, 1, 65);
+    color: #000;
+}
+
+.bg-blue a:hover {
+    color: white;
+    font-size: 20px;
+}
+
+ul {
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between !important ;
+    padding: 
+}
+ul li {
+    display: inline-flexbox;
+    flex-direction: row;
+    justify-content: space-between !important ;
+}
+/* @media screen and (max-width: 800px) {
+    ul li {
+    padding: 0 2.2px;
+    font-size: 10pt;
+    font-weight: small;
+    }
+} */
+/* / of navbar */
+
+/* ==== */
+/* ==== */
+/* ==== */
+
+/* header */
+.heade_breadcrumb{
+    background-image:linear-gradient(rgba(56, 51, 49, 0.5), rgba(65, 52, 47, 0.6)), url(../img/personal/IMG_20200510_173128.jpg);
+    background-position: 10%;
+    /* IMG_20200510_173430 */
+}
+
+.img_header{
+    border-radius: 10%;
+    background: none;
+    height: 65px;
+    border: none;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+/* / of header */
+
+/* content section */
+#sec1{
+    
+    background-size: cover;
+    background-image:linear-gradient(rgba(142, 245, 245, 0.404), rgba(127, 245, 245, 0.383)), url(../img/personal/IMG_20200508_173816_7.jpg) ;
+    color: #000;
+    background-attachment: fixed;
+    
+}
+/*/ of content section */
